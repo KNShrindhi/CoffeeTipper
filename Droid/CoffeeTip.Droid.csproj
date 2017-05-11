@@ -122,7 +122,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
-    <AndroidAsset Include="Properties\AndroidManifest.xml" />
+    <EmbeddedResource Include="Properties\AndroidManifest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup />
